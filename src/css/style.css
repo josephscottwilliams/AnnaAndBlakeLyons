@@ -1,0 +1,147 @@
+.body{
+   padding: 0 0;
+}
+#jumbotron {
+    background-image: url('../images/AnnaAndBlake.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 0;
+    padding: 0 0;
+    height: 700px;
+    width: 100%;
+}
+.title{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Shadows Into Light', cursive;
+    position: absolute;
+    bottom: 20%;
+}
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    margin: 15px auto 25px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.center{
+    text-align: center;
+}
+#bbb{
+    width: 200px;
+    padding: 10px;
+    /* display:block;
+    margin: auto; */
+   
+}
+#amazon{
+    width: 250px;
+    padding: 10px;
+    /* display:block;
+    margin: auto; */
+  
+}
+
+#info-row{
+    /* background-image: url(../images/mona-eendra-vC8wj_Kphak-unsplash.jpg); */
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.8)), url("../images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 0;
+    padding: 60px 15px 40px;
+    /* background: rgba(0, 0, 0, .9); */
+}
+
+.closing{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.small-column{
+    margin: 40px auto;
+}
+#google-calendar{
+    margin: 30px;
+}
+
+.custom-row{
+    margin: 60px auto;
+}
+p{
+    font-size: 25px;
+    text-align: center;
+}
+.wedding-reg-title{
+    font-family: 'Shadows Into Light', cursive;
+   
+}
+#wedding-reg-subtitle{
+    font-size: 20px;
+}
+#heart{
+    width: 40px;
+}
+#wedding-subtitle{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 60px;
+    font-family: 'Shadows Into Light', cursive;
+    position: absolute;
+}
+#registry-div{
+    display: block;
+    margin: 0 auto 80px;
+    text-align: center;
+    padding: 20px auto 50px;
+    
+   
+}
+
+.wedding-title-div{
+    background-color: rgb(226, 224, 255, 1);
+    margin: 0 0;
+    padding: 25px;
+   
+}
+.col-12 {
+    padding: 0 0;
+}
+.div{
+    padding: 0 0;
+    margin: 0 0;
+}
+p{
+    font-family: 'Kalam', cursive;
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    #wedding-subtitle{
+        font-size: 2.0rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    .title{
+        font-size: 2.0rem;
+        /* bottom: 20%; */
+    }
+    #main-title{
+        vertical-align: bottom;
+    }
+    #wedding-subtitle{
+        font-size: 1.8rem;
+
+    }
+  
+}
