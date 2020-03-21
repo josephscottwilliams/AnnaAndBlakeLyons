@@ -18,7 +18,7 @@
     font-size: 3rem;
     font-family: 'Shadows Into Light', cursive;
     position: absolute;
-    bottom: 20%;
+    /* bottom: 20%; */
 }
 h2{
     font-family: 'Shadows Into Light', cursive;
@@ -29,46 +29,27 @@ h2{
 .center{
     text-align: center;
 }
-#bbb{
-    width: 200px;
-    padding: 10px;
-    /* display:block;
-    margin: auto; */
-   
-}
-#amazon{
-    width: 250px;
-    padding: 10px;
-    /* display:block;
-    margin: auto; */
-  
-}
 
 #info-row{
-    /* background-image: url(../images/mona-eendra-vC8wj_Kphak-unsplash.jpg); */
     background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.8)), url("../images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 0;
     padding: 60px 15px 40px;
-    /* background: rgba(0, 0, 0, .9); */
 }
 
 .closing{
     font-family: 'Shadows Into Light', cursive;
     text-align: center;
     font-size: 25px;
-
 }
-
 .small-column{
     margin: 40px auto;
 }
 #google-calendar{
     margin: 30px;
 }
-
 .custom-row{
     margin: 60px auto;
 }
@@ -78,13 +59,26 @@ p{
 }
 .wedding-reg-title{
     font-family: 'Shadows Into Light', cursive;
-   
 }
 #wedding-reg-subtitle{
     font-size: 20px;
 }
 #heart{
     width: 40px;
+}
+#registry-div{
+    display: block;
+    margin: 0 auto 80px;
+    text-align: center;
+    padding: 20px auto 50px;
+}
+#main-title{
+    position: absolute;
+    height: 100%;
+}
+#wedding-title{
+    position: absolute;
+    bottom: 30%;
 }
 #wedding-subtitle{
     text-align: center;
@@ -93,21 +87,12 @@ p{
     font-size: 60px;
     font-family: 'Shadows Into Light', cursive;
     position: absolute;
+    bottom: 15%;
 }
-#registry-div{
-    display: block;
-    margin: 0 auto 80px;
-    text-align: center;
-    padding: 20px auto 50px;
-    
-   
-}
-
 .wedding-title-div{
     background-color: rgb(226, 224, 255, 1);
     margin: 0 0;
     padding: 25px;
-   
 }
 .col-12 {
     padding: 0 0;
@@ -119,6 +104,26 @@ p{
 p{
     font-family: 'Kalam', cursive;
 }
+#bbb{
+    width: 200px;
+    padding: 10px;
+}
+#amazon{
+    width: 250px;
+    padding: 10px;
+}
+
+/* @media screen and (min-width: 1300px) {
+    #wedding-title{
+       bottom: 30%
+       
+     }
+     #wedding-subtitle{
+         
+         bottom: 15%;
+         
+     }
+} */
 
 @media screen and (max-width: 768px) {
     .title{
@@ -127,21 +132,29 @@ p{
     h2{
         font-size: 2.5rem;
     }
+ 
+    #wedding-title{
+       bottom: 35%;
+    }
     #wedding-subtitle{
         font-size: 2.0rem;
+        bottom: 25%;
+        
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .title{
         font-size: 2.0rem;
-        /* bottom: 20%; */
     }
-    #main-title{
-        vertical-align: bottom;
+    #wedding-title{
+        font-size: 1.8rem;
+        bottom: 30%;
+       
     }
     #wedding-subtitle{
         font-size: 1.8rem;
-
+        bottom: 20%;
+       
     }
   
 }

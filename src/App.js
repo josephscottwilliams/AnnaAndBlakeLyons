@@ -1,23 +1,20 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import pic from './images/AnnaAndBlake.jpg';
+// import pic from './images/AnnaAndBlake.jpg';
 import './css/style.css';
 import bbb from './images/bbb.png';
 import amazon from './images/amazon-logo.png';
 import heart from './images/heart.png';
 
 
-class Hello extends React.Component {
+class App extends React.Component {
     render() {
         return (
             <div className="body">
                 <div className="jumbotron-fluid" id="jumbotron">
-                    <img
-                    // src={pic} 
-                    // id="jumbotron"
-                    ></img>
+                   
                     <div className="title" id="main-title">
-                        <h1 className="title">Anna Glover &amp; Blake Lyons</h1>
+                        <h1 className="title" id="wedding-title">Blake Lyons &amp; Anna Glover</h1>
                         <p id="wedding-subtitle">Wedding Reception</p>
 
                     </div>
@@ -29,7 +26,7 @@ class Hello extends React.Component {
                     <div className="row custom-row" id="info-row">
                         <div className="col-lg-4 center small-column">
                             <div>
-                            <iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=YWhkNDhkZGtxM2RqZWVwdm85bzZoYnVsamdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E4C441&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0" width="95%" height="300" frameborder="0" scrolling="no"></iframe>
+                            <iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=YWhkNDhkZGtxM2RqZWVwdm85bzZoYnVsamdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E4C441&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0" width="95%" height="300" frameBorder="0" scrolling="no"></iframe>
                             </div>
                            
                     <br></br>
@@ -52,7 +49,7 @@ class Hello extends React.Component {
                             <p>We still intend on getting married April 23, but will most likely be postponing our reception until the danger of COVID-19 has passed. We will update this website as we have more information, 
                             so check back here! Thank you for your love and support!</p>
                             <p className="closing">
-                            <img src={heart} id="heart"></img>
+                            <img src={heart} id="heart" alt="xoxo"></img>
                                  Anna &amp; Blake</p>
                         </div>
 
@@ -74,10 +71,10 @@ class Hello extends React.Component {
 
                         <div id="registry-div">
                             <a href="https://www.amazon.com/wedding/registry/240HZCLT9UBZX?ref=wr_search_page_result_2">
-                                <img src={amazon} id="amazon"></img>
+                                <img src={amazon} id="amazon" alt="amazon logo"></img>
                             </a>
                             <a href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/548313671">
-                                <img src={bbb} id="bbb"></img>
+                                <img src={bbb} id="bbb" alt="bed bath and beyond logo"></img>
                             </a>
                         </div>
                         </div>
@@ -89,4 +86,4 @@ class Hello extends React.Component {
     }
 }
 
-export default Hello;
+export default App;
